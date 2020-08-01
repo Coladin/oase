@@ -1,2 +1,27 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
+/wp-config.php
+wp-admin/
+wp-includes/
+wp-content/plugins
+wp-content/themes/twentynineteen/
+wp-content/themes/twentyseventeen/
+wp-content/themes/twentytwenty/
+wp-content/themes/index.php
+wp-content/uploads
+wp-content/index.php
+/.htaccess
+/readme.html
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
