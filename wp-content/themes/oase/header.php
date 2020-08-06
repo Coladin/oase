@@ -36,7 +36,7 @@
 
 			<div class="header-inner section-inner">
 
-                <?php echo do_shortcode('[slick-slider design="design-1" arrows="true" autoplay="true" autoplay_interval="3000" speed="300]'); ?>
+                <?php echo do_shortcode('[slick-slider design="design-1" arrows="true" autoplay="true" autoplay_interval="3000" speed="300 sliderheight="300" ]'); ?>
 
                 <div class="text-center mt-4">
                     <h1>Seniorenwohnanlage "Oase des Lebens"</h1>
