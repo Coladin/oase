@@ -1,12 +1,19 @@
 <?php get_header(); ?>
 
     <main id="site-content" role="main">
-        <div class="flex bg-gray-300">
-            <div class="flex-1 text-center underline px-4 py-2 m-2">Home</div>
-            <div class="flex-1 text-center underline px-4 py-2 m-2">Wohnungsbeispiel</div>
-            <div class="flex-1 text-center underline px-4 py-2 m-2">Detailierte Beschreibung</div>
-            <div class="flex-1 text-center underline px-4 py-2 m-2">3D Visualisierung</div>
-        </div>
+	    <?php if ( has_nav_menu( 'oase' ) ) : ?>
+            <nav id="site-navigation" class="main-navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'oase' ); ?>">
+			    <?php
+			    wp_nav_menu(
+				    array(
+					    'theme_location' => 'oase',
+					    'menu_class'     => 'flex-1 text-center underline px-4 py-2 m-2',
+					    'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+				    )
+			    );
+			    ?>
+            </nav><!-- #site-navigation -->
+	    <?php endif; ?>
 
         <p class="text-center mt-12">
             Moderne & bezahlbare, barrierefreie Neubau-Seniorenwohnungen im Erstbezug PROVISIONSFREI vom Bauherr<br>
