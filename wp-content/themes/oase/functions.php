@@ -27,6 +27,7 @@ function container( $classes ) {
 register_nav_menus(
 	array(
 		'oase' => __( 'Primary', 'oase' ),
+		'mali-menu' => __( 'Secondary', 'mali-menu' ),
 	)
 );
 

@@ -6,9 +6,8 @@
 			    wp_nav_menu(
 				    array(
 					    'theme_location' => 'oase',
-					    'menu_class'     => 'flex bg-gray-300',
+//					    'menu_class'     => 'flex bg-gray-300',
 					    'items_wrap'     => '<div class="flex bg-gray-300">%3$s</div>',
-                        // <li elementi..> flex-1 text-gray-700 text-center px-4 py-2 m-2 inline-block
 				    )
 			    );
 			    ?>
@@ -22,11 +21,11 @@
             Vom Friseur über SPA / Physiotherapie bis zur eigenen gesunden & preiswerten Kantine - alles vor Ort
         </p>
 
-        <p class="py-8 text-blue-800 text-3xl text-center mt-12 grad">Eine unverbindliche WOHNUNGSBEWERBUNG ausfüllen !</p>
+        <p class="py-8 rounded-lg text-blue-800 text-3xl text-center mt-12 grad">Eine unverbindliche WOHNUNGSBEWERBUNG ausfüllen !</p>
 
-        <div class="flex bg-gray-200 mt-8">
-            <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">Anmelden, um als erster wichtige Neuigkeiten zu erhalten</div>
-            <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">Einem Freund per E-Mail empfehlen</div>
+        <div class="flex mt-8">
+            <div class="flex-1 bg-gray-300 rounded-lg text-gray-700 text-center px-4 py-12 m-8">Anmelden,<br>um als erster wichtige Neuigkeiten zu erhalten</div>
+            <div class="flex-1 bg-gray-300 rounded-lg text-gray-700 text-center px-4 py-16 m-8">Einem Freund per E-Mail empfehlen</div>
         </div>
         <?php
 
