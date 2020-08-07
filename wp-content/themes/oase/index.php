@@ -2,17 +2,16 @@
 
     <main id="site-content" role="main">
 	    <?php if ( has_nav_menu( 'oase' ) ) : ?>
-            <nav id="site-navigation" class="main-navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'oase' ); ?>">
 			    <?php
 			    wp_nav_menu(
 				    array(
 					    'theme_location' => 'oase',
-					    'menu_class'     => 'flex-1 text-center underline px-4 py-2 m-2',
-					    'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+					    'menu_class'     => 'flex bg-gray-300',
+					    'items_wrap'     => '<div class="flex bg-gray-300">%3$s</div>',
+                        // <li elementi..> flex-1 text-gray-700 text-center px-4 py-2 m-2 inline-block
 				    )
 			    );
 			    ?>
-            </nav><!-- #site-navigation -->
 	    <?php endif; ?>
 
         <p class="text-center mt-12">
@@ -23,7 +22,7 @@
             Vom Friseur über SPA / Physiotherapie bis zur eigenen gesunden & preiswerten Kantine - alles vor Ort
         </p>
 
-        <p class="px-6 border text-red-600 text-center mt-12">Eine unverbindliche<span class="px-20">WOHNUNGSBEWERBUNG</span>ausfüllen !</p>
+        <p class="py-8 text-blue-800 text-3xl text-center mt-12 grad">Eine unverbindliche WOHNUNGSBEWERBUNG ausfüllen !</p>
 
         <div class="flex bg-gray-200 mt-8">
             <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">Anmelden, um als erster wichtige Neuigkeiten zu erhalten</div>

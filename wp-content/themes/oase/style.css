@@ -2,3 +2,7 @@ h1 {
     font-size: 2em;
     margin: 0.67em 0;
 }
+
+.grad {
+    background-image: linear-gradient(to right, #807070 5%, #4b9abe 40%, #e27b7b);
+}
