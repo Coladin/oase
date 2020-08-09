@@ -18,8 +18,8 @@ add_action( 'wp_enqueue_scripts', 'oase_register_styles' );
 // Add specific CSS class by filter.
 add_filter( 'body_class','container' );
 function container( $classes ) {
-	$classes[] = 'container';
-	$classes[] = 'm-auto';
+//	$classes[] = 'container';
+//	$classes[] = 'm-auto';
 	return $classes;
 }
 

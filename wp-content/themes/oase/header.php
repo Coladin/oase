@@ -36,11 +36,11 @@
 
 			<div class="header-inner section-inner">
 
-                <?php echo do_shortcode('[slick-slider design="design-2" arrows="true" autoplay="true" autoplay_interval="3000" speed="300"]'); ?>
-
-                <div class="text-center mt-4">
-                    <h1>Seniorenwohnanlage "Oase des Lebens"</h1>
-                    <span class="mt-20">Waldemardamm 22 in 14641 Nauen</span>
+                <div class="text-center">
+<!--                    <h1>Seniorenwohnanlage "Oase des Lebens"</h1>-->
+<!--                    <span class="mt-20">Waldemardamm 22 in 14641 Nauen</span>-->
+                    
+                    <?php echo do_shortcode('[slick-slider design="design-1" arrows="true" autoplay="true" autoplay_interval="3000" show_content="false"]'); ?>
                 </div>
 
 			</div><!-- .header-inner -->
