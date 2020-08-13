@@ -11,3 +11,7 @@
 body {
     font-family: "Gothic", Arial, sans-serif;
 }
+
+.listImage {
+    list-style: circle inside url('assets/images/bullet-02.png');
+}

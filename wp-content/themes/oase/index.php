@@ -1,34 +1,17 @@
 <?php get_header(); ?>
 
     <main id="site-content" role="main">
-	    <?php if ( has_nav_menu( 'oase' ) ) : ?>
-			    <?php
-			    wp_nav_menu(
-				    array(
-					    'theme_location' => 'oase',
-					    'items_wrap'     => '<div class="flex bg-gray-300">%3$s</div>',
-				    )
-			    );
-			    ?>
-	    <?php endif; ?>
+	    <ul class="mt-8 w-4/5 mx-auto listImage">
+            <li class="text-2xl text-gray-700 ml-16">Moderne & bezahlbare, barrierefreie Neubau-Seniorenwohnungen im Erstbezug PROVISIONSFREI vom Bauherr</li>
+            <li class="text-2xl text-gray-700 ml-16">Direkt am RE-Bahnhof Nauen, verkehrstechnisch sehr gut gelegen</li>
+            <li class="text-2xl text-gray-700 ml-16">Professionelle ambulante Pflege vor Ort, Ärtzte sowie Fisiotherapie im Haus</li>
+            <li class="text-2xl text-gray-700 ml-16">Rezeption 24 h / medizinische Notfallbereitschaft 24 h / eigene security 24 h</li>
+            <li class="text-2xl text-gray-700 ml-16">Vom Friseur über SPA / Physiotherapie bis zur eigenen gesunden & preiswerten Kantine - alles vor Ort</li>
+        </ul>
 
-        <div class="mx-auto text-center">
-            <h2 class="text-3xl">SENIORENWOHNANLAGE</h2>
-            <h1 class="text-4xl">"OASE DES LEBENS"</h1>
-            <span class="mt-4">Waldemardamm 22 in 14641 Nauen</span>
-        </div>
-        
-        <p class="text-center mt-12">
-            Moderne & bezahlbare, barrierefreie Neubau-Seniorenwohnungen im Erstbezug PROVISIONSFREI vom Bauherr<br>
-            Direkt am RE-Bahnhof Nauen, verkehrstechnisch sehr gut gelegen<br>
-            Professionelle ambulante Pflege vor Ort, Ärtzte sowie Fisiotherapie im Haus<br>
-            Rezeption 24 h / medizinische Notfallbereitschaft 24 h / eigene security 24 h<br>
-            Vom Friseur über SPA / Physiotherapie bis zur eigenen gesunden & preiswerten Kantine - alles vor Ort
-        </p>
+        <p class="py-8 text-blue-800 text-3xl text-center mt-8 grad">Eine unverbindliche WOHNUNGSBEWERBUNG ausfüllen !</p>
 
-        <p class="py-8 text-blue-800 text-3xl text-center mt-12 grad">Eine unverbindliche WOHNUNGSBEWERBUNG ausfüllen !</p>
-
-        <div class="flex mt-8">
+        <div class="flex">
             <div class="flex-1 bg-gray-300 rounded-lg text-gray-700 text-center px-4 py-12 m-8 shadow-2xl font-semibold">ANMELDEN,<br>UM ALS ERSTER WICHTIGE NEUIGKEITEN ZU ERHALTEN</div>
             <div class="flex-1 bg-gray-300 rounded-lg text-gray-700 text-center px-4 py-16 m-8 shadow-2xl font-semibold">EINEM FREUND PER E-MAIL EMPFEHLEN</div>
         </div>
